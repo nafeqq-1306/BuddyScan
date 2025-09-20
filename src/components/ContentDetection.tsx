@@ -282,4 +282,9 @@ const ContentDetection: React.FC<Props> = ({ mode, onSubmit }) => {
   );
 };
 
+const DetectionResult = () => {
+  return <div>Detection Result</div>;
+};
+
 export default ContentDetection;
+export {};
